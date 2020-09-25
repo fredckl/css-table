@@ -24,9 +24,13 @@
   display: table-cell;
   width: 200px;
   border: solid 10px skyblue;
+  border-bottom: none;
   background-color: #f2f2f2;
   vertical-align: middle;
   padding: 10px;
+}
+.table-row:last-child .table-cell {
+  border-bottom: solid 10px skyblue;
 }
 
 .table-cell:first-child {
