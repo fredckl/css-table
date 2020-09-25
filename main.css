@@ -1,3 +1,5 @@
+/** @format */
+
 .table {
   display: table;
   table-layout: fixed;
@@ -21,7 +23,8 @@
   position: relative;
   display: table-cell;
   width: 200px;
-  background-color: skyblue;
+  border: solid 10px skyblue;
+  background-color: #f2f2f2;
   vertical-align: middle;
   padding: 10px;
 }
